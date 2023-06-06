@@ -1,0 +1,226 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+body{
+	background: rgba(0,0,0,0.1);
+	font-family: sans-serif;
+}
+header{
+	width:80%;
+	height:80vh;
+	margin:auto;
+	background: url('img/1.jpg');
+	background-size: cover;
+	position:relative;
+	margin-top: 2rem;
+}
+header div{
+	max-width: 900px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+header div h1{
+	font-size:8em;
+	letter-spacing: 2px;
+		text-shadow: 2px 3px 15px black;
+}
+header div p{
+	font-size:1.5em;
+	line-height: 1.5em;
+}
+header div h2{
+	font-size: 4em;
+	text-shadow: 2px 3px 5px black;
+}
+#vibes{
+	width:80%;
+	height:90vh;
+	margin:auto;
+	padding: 50px;
+	background: white;
+}
+.v-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.v-left{
+	flex-basis: 50%;
+
+}
+.v-right{
+	flex-basis: 50%;
+	text-align: center;
+}
+.v-right img{
+	width:70%;
+}
+.v-left h2{
+	font-size: 2em;
+}
+.v-left h2 span{
+	color: red;
+}
+.v-left p{
+	color: grey;
+	line-height: 2em;
+	margin:10px 0;
+}
+.v-left button{
+	border:none;
+	outline: none;
+	color: white;
+	background:#27ae60;
+	padding: 20px 30px;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+#celebrate{
+		width:80%;
+	min-height:100vh;
+	margin:auto;
+	padding: 50px;
+	background:white;
+	text-align:center;
+}
+#celebrate div{
+
+	margin-top:20px; 
+}
+#celebrate div span{
+	color: red;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+#celebrate div h2{
+	margin:10px 0;
+	font-size: 2em;
+}
+#celebrate div p{
+	color: grey;
+}
+#celebrate div button{
+	border:none;
+	outline: none;
+	color: white;
+	background:#27ae60;
+	padding:10px 20px;
+	border-radius: 8px;
+	margin-top: 15px;
+
+}
+#joinus{
+	width:80%;
+	min-height:70vh;
+	margin:auto;
+	padding: 50px;
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('img/22.jpg');
+	background-size: cover;
+
+}
+#joinus div{
+	color: white;
+	max-width: 600px;
+}
+#joinus div span{
+	color: red;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+#joinus div h2{
+	font-size:4em;
+}
+#joinus div p{
+	margin:10px 0;
+	line-height:2em;
+}
+#joinus div button{
+
+	border:none;
+	outline: none;
+	color: white;
+	background:#27ae60;
+	padding:10px 20px;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+#invite{
+	width:80%;
+	min-height:100vh;
+	margin:auto;
+	padding: 50px;
+	background:white;
+	text-align:center;
+}
+.card{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:30px 0;
+}
+.card img{
+	width: 100%;
+	border-radius: 8px;
+}
+.box{
+	flex-basis: 30%;
+}
+.box h2{
+	margin: 10px 0;
+}
+.box p{
+	color: grey;
+}
+.box2{
+	flex-basis:45%;
+}
+#invite button{
+
+	border:none;
+	outline: none;
+	color: white;
+	background:#27ae60;
+	padding:20px 30px;
+	font-size: 20px;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+footer{
+width:80%;
+	min-height:50vh;
+	margin:auto;
+	padding: 50px;
+	background:#232323;
+	text-align:center;
+
+}
+.icons{
+	margin-top: 16px;
+}
+.icons img{
+	margin: 0 10px;
+}
+footer p{
+	color: white;
+	margin-top:30px;
+	background:#27ae60;
+	padding: 20px;
+	border-radius: 8px;  
+}
+footer p span{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+
+
